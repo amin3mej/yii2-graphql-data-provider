@@ -9,7 +9,7 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.13"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "amin3mej\\graphql\\": ""
