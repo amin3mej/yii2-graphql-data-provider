@@ -2,7 +2,16 @@
     "name": "amin3mej/yii2-graphql-data-provider",
     "type": "library",
     "description": "A data-provider that can used for connect to a graphql server.",
-    "keywords": ["php", "yii2", "graphql", "yii2-dataprovider", "yii2 graphql data provider"],
+    "keywords": ["php", "yii2", "graphql", "yii2-data-provider", "yii2 graphql data provider"],
     "homepage": "https://amin3mej.github.io",
-    "license": "GPL-3.0-or-later"
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "amin3mej\\graphql\\": ""
+        }
+    }
 }
