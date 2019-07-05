@@ -4,5 +4,5 @@
     "description": "A data-provider that can used for connect to a graphql server.",
     "keywords": ["php", "yii2", "graphql", "yii2-dataprovider", "yii2 graphql data provider"],
     "homepage": "https://amin3mej.github.io",
-    "license": "GPL"
+    "license": "GPL-3.0-or-later"
 }
