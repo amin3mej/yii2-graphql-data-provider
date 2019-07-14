@@ -61,7 +61,7 @@ if you define an array with the same name with your target, it headers will used
 Usage:
 ---------
 
-Query:
+**Query:**
 
 ```php
 const QUERY_CHECK = <<<QUERY
@@ -79,7 +79,7 @@ $result = Yii::$app->graphql->execute(QUERY_CHECK, ['userId' => (int) $userId], 
 
 
 
-ActiveDataProvider:
+**ActiveDataProvider:**
 
 ```php
 use amin3mej\graphql\GraphqlDataProvider;
