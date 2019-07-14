@@ -8,7 +8,7 @@
 
 A helper for GraphQL that include QueryHelper and ActiveDataProvider for Yii2.
 
-[![Latest Stable Version](https://poser.pugx.org/amin3mej/yii2-graphql-data-provider/v/stable)](https://packagist.org/packages/amin3mej/yii2-graphql-data-provider)[![Total Downloads](https://poser.pugx.org/amin3mej/yii2-graphql-data-provider/downloads)](https://packagist.org/packages/amin3mej/yii2-graphql-data-provider)[![License](https://poser.pugx.org/amin3mej/yii2-graphql-data-provider/license)](https://packagist.org/packages/amin3mej/yii2-graphql-data-provider)
+[![Latest Stable Version](https://poser.pugx.org/amin3mej/yii2-graphql-data-provider/v/stable)](https://packagist.org/packages/amin3mej/yii2-graphql-data-provider) [![Total Downloads](https://poser.pugx.org/amin3mej/yii2-graphql-data-provider/downloads)](https://packagist.org/packages/amin3mej/yii2-graphql-data-provider) [![License](https://poser.pugx.org/amin3mej/yii2-graphql-data-provider/license)](https://packagist.org/packages/amin3mej/yii2-graphql-data-provider)
 
 Installation
 ------------
