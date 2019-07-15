@@ -44,7 +44,7 @@ To access Query Component, you need to configure the components array in your ap
             'graphqlhub' => 'https://www.graphqlhub.com/graphql',
         ],
         'customHeaders' => [
-            'Content-Type' => 'application/json',
+            'Content-Type' => 'application/graphql',
             'github' => [
                 'Authorization' => 'Bearer ' . $params['github.graphqlToken'],
             ],
@@ -58,6 +58,14 @@ You can define your targets here to access them fast from your code.
 Also you can define some headers here to add to the requests. if you fine a key directly in array, the key recognized as common header and It will send with all request.
 if you define an array with the same name with your target, it headers will used only for the target.
 
+By default there are two headers: 
+```
+[
+    'Accept' => 'application/json',
+    'Content-Type' => 'application/json'
+]
+```
+But you can override them, by giving new headers with same Array key.
 Usage:
 ---------
 
@@ -67,8 +75,8 @@ Usage:
 const QUERY_CHECK = <<<QUERY
 query test (\$userId: Int!){
   userInfo (userId: \$userId) {
-		firstname
-		lastname
+    firstname
+    lastname
     email
   }
 }
