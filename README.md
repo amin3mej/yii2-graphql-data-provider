@@ -65,7 +65,9 @@ By default there are two headers:
     'Content-Type' => 'application/json'
 ]
 ```
-But you can override them, by giving new headers with same Array key.
+But you can override them, by giving new headers with the same Array keys.
+
+
 Usage:
 ---------
 
